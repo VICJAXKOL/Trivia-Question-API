@@ -21,13 +21,13 @@
 #start-btn,#score-btn{
     border-width: 2px; 
 }
-#start-btn:hover,#score-btn:hover{
+ #start-btn:hover,#score-btn:hover{
     opacity: .9;
-    transform: translateY(10px);
-    border-width: 4px;
-    transition: all 150ms;
+    transform: translateY(10px); 
+    border-width: 4px; 
+    transition: all 150ms;   
     border-color: #56a5eb;
-}
+} 
 
 
 .choice-prefix{

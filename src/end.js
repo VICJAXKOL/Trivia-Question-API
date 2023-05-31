@@ -47,8 +47,7 @@ save.addEventListener('click', (e) => {
     
 })
 
-
-finaleScore.innerHTML = mostRecentScore ;
+ finaleScore.innerHTML = mostRecentScore ;
 finaleScore.classList.add("text-blue" );
 
 // message that depend  to the result 
@@ -65,4 +64,3 @@ else if(mostRecentScore <= 40) {
 else{
     resume.innerHTML =`Great job `
 }
-

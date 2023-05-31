@@ -4,7 +4,6 @@ let scoreFromDocument =document.getElementById('score') ;
 
 //for printing how much questions left
 let count = document.getElementById('counter') ;
-
 let loader =document.getElementById('loader') ;
 let questionContainer =document.getElementById('question-container') ;
 
@@ -16,7 +15,7 @@ let avialableQuestions =[] ;
 let currentQuestion = {} ; 
 let questionsCounter = 0 ;
 
-// make sure that every think is loaded then he will accept to give the answer
+// make sure that every think is loaded then it  will accept to give the answer
 let acceptingAnswers = false ;
 let score = 0 ;
 
@@ -83,7 +82,7 @@ function getNewQuestion () {
         questionsCounter++ ;
     
         if(avialableQuestions.length === 0 ) {
-            return window.location.assign('./end.html');
+            return window.location.assign('./endgame.html');
         }
     
     const currentQuestionIndex = Math.floor(Math.random()*avialableQuestions.length) ;
